@@ -2,7 +2,7 @@ class Zirv < Formula
     desc "Dynamic CLI tool to streamline tasks and boost productivity"
     homepage "https://github.com/Glubiz/zirv-dynamic-cli"
   url "https://github.com/Glubiz/zirv-dynamic-cli/releases/download/v2.0.2/zirv-2.0.2-macos.tar.gz"
-  sha256 "af4c4a7e0d037fda02f9edf6c18c7e33006ae8f561b33e5dc732320e0ec045ad" # This will be updated automatically by your update script
+  sha256 "35ecfd64bd51e8207eda5af9162271c6a3574de37d8f27719191068a06c3dc23" # This will be updated automatically by your update script
     license "MIT"
   version "2.0.2"
   
