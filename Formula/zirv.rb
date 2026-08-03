@@ -6,10 +6,10 @@ class Zirv < Formula
 
   if OS.mac?
     url "https://github.com/Glubiz/zirv-dynamic-cli/releases/download/v2.5.1/zirv-2.5.1-macos.tar.gz"
-    sha256 "7be2151c2b63f81c2d663d63966795688823371b1078c7ab67ac7f62b2006063"
+    sha256 "47fe002dd1ba015bfe5c793c02135571846cd30e19e51147c970ed7e16f47efa"
   elsif OS.linux?
     url "https://github.com/Glubiz/zirv-dynamic-cli/releases/download/v2.5.1/zirv-2.5.1-linux.tar.gz"
-    sha256 "85d1690e896843b44d1ae1d93536bc9fc32ccade20c382bfa4271da7090998c9"
+    sha256 "cd2a3ec91c9af431bbe0ae822c287eb8be13bd1e23959136e524a2fc33513e13"
   end
 
   def install
