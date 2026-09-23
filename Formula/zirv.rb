@@ -2,14 +2,14 @@ class Zirv < Formula
   desc "Dynamic CLI tool to streamline tasks and boost productivity"
   homepage "https://github.com/Glubiz/zirv-cli"
   license "MIT"
-  version "4.23.0"
+  version "4.24.0"
 
   if OS.mac?
-    url "https://github.com/Glubiz/zirv-cli/releases/download/v4.23.0/zirv-4.23.0-macos.tar.gz"
-    sha256 "19a6b73eaf1b549d367b1dd7819c9248a01c83e0b9d983d6e4edcbd75b33bb6f"
+    url "https://github.com/Glubiz/zirv-cli/releases/download/v4.24.0/zirv-4.24.0-macos.tar.gz"
+    sha256 "d7c3d1f654b89af95212d21ccebac487bb764ae72d21d34b02dbe3e955410116"
   elsif OS.linux?
-    url "https://github.com/Glubiz/zirv-cli/releases/download/v4.23.0/zirv-4.23.0-linux.tar.gz"
-    sha256 "b092b696fa67798bfd03edefc0d78eb7af7b41a0e1524133760fcc4674168bae"
+    url "https://github.com/Glubiz/zirv-cli/releases/download/v4.24.0/zirv-4.24.0-linux.tar.gz"
+    sha256 "4439ddf6bbb3a078a56ecbea5f521bdf75fa5c615d07e5d2776c8231bcd5d3fd"
   end
 
   def install
